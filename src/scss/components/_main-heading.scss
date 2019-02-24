@@ -4,11 +4,13 @@
     font-family: $heading-font-family;
     font-weight: 600;
 
-    &--caps {
+    &.main-heading--caps {
         text-transform: uppercase;
     }
 
-    &--lg {
-        font-size: 3.75rem;
+    &.main-heading--lg {
+        @include large-screen {
+            font-size: 3.75rem;
+        }  
     }
 }

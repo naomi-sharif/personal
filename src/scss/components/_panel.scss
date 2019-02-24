@@ -1,11 +1,11 @@
 .panel {
-    padding: 7.5rem 0;
+    padding: $panel-padding 0;
 
-    &--light {
+    &.panel--light {
         background-color: $light-panel-color;
     }
 
-    &--gradient {
+    &.panel--gradient {
         @include gradient-background;
     }
 }

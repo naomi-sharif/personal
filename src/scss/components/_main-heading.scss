@@ -1,0 +1,14 @@
+.main-heading {
+    color: $heading-color;
+    font-size: 2.25rem;
+    font-family: $heading-font-family;
+    font-weight: 600;
+
+    &--caps {
+        text-transform: uppercase;
+    }
+
+    &--lg {
+        font-size: 3.75rem;
+    }
+}

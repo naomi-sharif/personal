@@ -9,6 +9,8 @@
     }
 
     &.main-heading--lg {
+        font-size: 2.5rem;
+    
         @include large-screen {
             font-size: 3.75rem;
         }  

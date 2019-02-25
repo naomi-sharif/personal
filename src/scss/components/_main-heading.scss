@@ -1,19 +1,19 @@
 .main-heading {
-    color: $heading-color;
-    font-size: 2.25rem;
-    font-family: $heading-font-family;
-    font-weight: 600;
-    margin-bottom: .875rem;
+  color: $heading-color;
+  font-size: 2.25rem;
+  font-family: $heading-font-family;
+  font-weight: 600;
+  margin-bottom: 0.875rem;
 
-    &.main-heading--caps {
-        text-transform: uppercase;
-    }
+  &.main-heading--caps {
+    text-transform: uppercase;
+  }
 
-    &.main-heading--lg {
-        font-size: 2.5rem;
-    
-        @include large-screen {
-            font-size: 3.75rem;
-        }  
+  &.main-heading--lg {
+    font-size: 2.5rem;
+
+    @include large-screen {
+      font-size: 3.75rem;
     }
+  }
 }

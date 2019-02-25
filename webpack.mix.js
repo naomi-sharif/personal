@@ -11,7 +11,13 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('src/js/app.js', 'dist/')
+mix
+    .webpackConfig({
+        devServer: {
+        host: '0.0.0.0',
+        },
+    })
+    .js('src/js/app.js', 'dist/')
     .sass('src/scss/main.scss', 'dist/')
     .setPublicPath('dist');
 

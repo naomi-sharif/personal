@@ -4,6 +4,10 @@
     margin: 0 auto;
     position: relative;
 
+    &.container--text-center {
+        text-align: center;
+    }
+
     &__row {
         margin-left: -$gutter-width;
         margin-right: -$gutter-width;

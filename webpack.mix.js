@@ -1,4 +1,5 @@
 let mix = require('laravel-mix');
+require("mix-html-builder");
 
 /*
  |--------------------------------------------------------------------------
@@ -19,7 +20,9 @@ mix
     })
     .js('src/js/app.js', 'dist/')
     .sass('src/scss/main.scss', 'dist/')
-    .setPublicPath('dist');
+    .setPublicPath('dist')
+    .buildHtml();
+    
 
 // Full API
 // mix.js(src, output);

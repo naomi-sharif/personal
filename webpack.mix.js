@@ -20,8 +20,7 @@ mix
     })
     .js('src/js/app.js', 'dist/')
     .sass('src/scss/main.scss', 'dist/')
-    .setPublicPath('dist')
-    .buildHtml();
+    .setPublicPath('dist');
     
 
 // Full API

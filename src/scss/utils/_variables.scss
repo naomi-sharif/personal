@@ -9,20 +9,20 @@ $button-text-color: #fff;
 
 $light-panel-color: #f9f9ff;
 
-
 ///*** FONTS ***///
-$heading-font-family: 'Poppins', sans-serif;
+$heading-font-family: "Poppins", sans-serif;
 $body-font-family: $heading-font-family;
 $button-font-family: $heading-font-family;
-
 
 ///*** GRID ***///
 $container-width: 1140px;
 $gutter-width: 1rem;
 
-
 ///*** PANEL ***///
 $panel-padding: 7.5rem;
+
+///*** MARGINS ***///
+$margin-medium: 1.5rem;
 
 ///*** BREAKPOINTS ***///
 $tablet-width: 768px;

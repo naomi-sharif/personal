@@ -1,30 +1,32 @@
 .container {
-    max-width: $container-width;
+  max-width: $container-width;
+  padding: 0 $gutter-width;
+  margin: 0 auto;
+  position: relative;
+
+  &.container--text-center {
+    text-align: center;
+  }
+
+  &__row {
+    margin-left: -$gutter-width;
+    margin-right: -$gutter-width;
+
+    @include large-screen {
+      display: flex;
+    }
+  }
+
+  &__col {
+    flex: 1;
     padding: 0 $gutter-width;
-    margin: 0 auto;
     position: relative;
 
-    &__row {
-        margin-left: -$gutter-width;
-        margin-right: -$gutter-width;
-
-        @include large-screen {
-            display: flex;
-        }
+    &.container__col--v-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
     }
-
-    &__col {
-        flex: 1;
-        padding: 0 $gutter-width;
-        position: relative;
-
-        &.container__col--v-center {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-        }
-    }
-    
-
+  }
 }

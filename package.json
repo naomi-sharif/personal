@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/naomi-sharif/personal#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.7.2",
     "laravel-mix": "^4.0.14",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.17.2",

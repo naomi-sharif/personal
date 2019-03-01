@@ -28,5 +28,9 @@
       justify-content: center;
       align-items: flex-start;
     }
+
+    &.container__col--no-padding {
+      padding: 0;
+    }
   }
 }

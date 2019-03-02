@@ -1,0 +1,18 @@
+.email-submit {
+  display: flex;
+  justify-content: center;
+
+  &__input {
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+    outline: none;
+  }
+
+  &__button {
+    padding: 0.5rem 1rem;
+    background-color: $primary-color;
+    outline: none;
+    border: none;
+    color: $button-text-color;
+    font-size: 1rem;
+  }
+}

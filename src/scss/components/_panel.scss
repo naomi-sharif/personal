@@ -5,6 +5,10 @@
     background-color: $light-panel-color;
   }
 
+  &.panel--dark {
+    background-color: $footer-color;
+  }
+
   &.panel--gradient {
     @include gradient-background;
   }

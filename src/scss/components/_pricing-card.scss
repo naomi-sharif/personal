@@ -1,0 +1,22 @@
+.pricing-card {
+  background-color: $light-panel-color;
+  padding: 2.5rem 0;
+
+  &__option-no {
+    background-color: $primary-color-opacity;
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 30px solid $primary-color-opacity;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $body-font-family;
+    color: $heading-color;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: $margin-medium;
+  }
+}

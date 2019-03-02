@@ -4,4 +4,8 @@
   font-size: 18px;
   font-weight: 600;
   font-family: $heading-font-family;
+
+  &.sub-heading--margin-small {
+    margin: 0.5rem;
+  }
 }

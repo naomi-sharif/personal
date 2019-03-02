@@ -1,5 +1,6 @@
 ///*** COLORS ***///
 $primary-color: #8490ff;
+$primary-color-opacity: rgba(132, 144, 255, 0.1);
 $secondary-color: #62bdfc;
 
 $heading-color: #222;
@@ -8,6 +9,8 @@ $body-color: #777;
 $button-text-color: #fff;
 
 $light-panel-color: #f9f9ff;
+
+$border-color: #eee;
 
 ///*** FONTS ***///
 $heading-font-family: "Poppins", sans-serif;
@@ -26,3 +29,6 @@ $margin-medium: 1.5rem;
 
 ///*** BREAKPOINTS ***///
 $tablet-width: 768px;
+
+///*** BORDER ***///
+$border: 1px solid $border-color;

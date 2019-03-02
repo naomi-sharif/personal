@@ -1,6 +1,6 @@
 .pricing-card {
   background-color: $light-panel-color;
-  padding: 2.5rem 0;
+  padding: 2.5rem 1rem;
 
   &__option-no {
     background-color: $primary-color-opacity;
@@ -18,5 +18,21 @@
     font-size: 2.5rem;
     font-weight: 300;
     margin-bottom: $margin-medium;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin: $margin-medium 0;
+  }
+
+  &__list-item {
+    @extend .body;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    border-top: 1px solid $border-color;
+
+    &.pricing-card__list-item--last {
+      border-bottom: 1px solid $border-color;
+    }
   }
 }

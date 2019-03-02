@@ -1,0 +1,49 @@
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @extend .body;
+
+  &__image-container {
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: $border;
+    padding-bottom: 0.5rem;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+
+  &__user-name {
+    margin-left: 0.5rem;
+  }
+
+  &__meta {
+    margin-left: 0.5rem;
+  }
+
+  &__meta-icon {
+    margin-right: 4px;
+  }
+
+  &__content {
+    text-align: left;
+  }
+
+  &__heading {
+    @extend .sub-heading;
+    text-transform: uppercase;
+  }
+}

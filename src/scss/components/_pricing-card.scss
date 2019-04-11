@@ -2,9 +2,14 @@
   background-color: $light-panel-color;
   padding: 2.5rem 1rem;
   margin-bottom: $margin-medium;
+  transition: all .2s ease-in-out;
 
   @include large-screen {
     margin-bottom: 0;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 
   &__option-no {

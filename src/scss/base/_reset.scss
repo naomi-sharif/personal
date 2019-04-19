@@ -6,3 +6,8 @@
   box-sizing: inherit;
   -webkit-font-smoothing: antialiased;
 }
+
+::selection {
+  background: $primary-color;
+  color: #fff;
+}

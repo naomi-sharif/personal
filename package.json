@@ -28,7 +28,5 @@
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.7"
   },
-  "dependencies": {
-    "@glidejs/glide": "^3.2.6"
-  }
+  "dependencies": {}
 }

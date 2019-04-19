@@ -1,11 +1,15 @@
 .panel {
-    padding: $panel-padding 0;
+  padding: $panel-padding 0;
 
-    &.panel--light {
-        background-color: $light-panel-color;
-    }
+  &.panel--light {
+    background-color: $light-panel-color;
+  }
 
-    &.panel--gradient {
-        @include gradient-background;
-    }
+  &.panel--dark {
+    background-color: $footer-color;
+  }
+
+  &.panel--gradient {
+    @include gradient-background;
+  }
 }

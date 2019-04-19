@@ -1,7 +1,15 @@
 .body {
-    font-family: $body-font-family;
-    color: $body-color;
-    font-weight: 300;
-    font-size: .875rem;
-    margin-bottom: 1rem;
+  font-family: $body-font-family;
+  color: $body-color;
+  font-weight: 300;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+
+  &.body--margin-lg {
+    margin-bottom: 5rem;
+  }
+
+  &.body--white {
+    color: #fff;
+  }
 }

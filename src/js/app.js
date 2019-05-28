@@ -1,7 +1,7 @@
 const app = {
 
   init() {
-    //
+    this.toggleHamburger();
   },
 
   toggleHamburger() {

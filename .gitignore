@@ -130,9 +130,3 @@ typings/
 .history
 
 # End of https://www.gitignore.io/api/node,sass,macos,visualstudiocode
-
-dist/app.js
-dist/main.css 
-dist/hot 
-dist/mix-manifest.json
-dist/fonts

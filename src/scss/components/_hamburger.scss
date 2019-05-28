@@ -9,3 +9,15 @@
     transition: all 0.2s ease-in-out;
     }
 }
+
+.hamburger.active .hamburger__line:nth-child(1) {
+	transform: translateY(12px) rotate(45deg);
+}
+
+.hamburger.active .hamburger__line:nth-child(2) {
+	transform: rotate(45deg);
+}
+
+.hamburger.active .hamburger__line:nth-child(3) {
+	transform: translateY(-12px) rotate(-45deg);
+}

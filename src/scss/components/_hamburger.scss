@@ -1,5 +1,7 @@
 .hamburger {
-  // No block styling.
+  background-color: transparent;
+  border: none;
+  outline: none; 
     &__line {
       width: 45px;
       height: 3px;
